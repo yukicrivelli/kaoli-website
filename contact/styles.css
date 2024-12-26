@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+form {
+    background: #000a14;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+h1 {
+    font-family: footlight mt, castellar;
+    background-color: transparent;
+    color: rgb(255, 235, 255);
+    font-size: 300%;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+h3 {
+    font-family: footlight mt, castellar;
+    background-color: transparent;
+    color: rgb(255, 235, 255);
+    font-size: 150%;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+input, textarea, button {
+    font-family: "Lucida Grande",Verdana;
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 100%;
+}
+.name-fields {
+    display: flex;
+    gap: 15px;
+}
+.name-fields input {
+    width: 88%;
+}
+button {
+    background-color: #7a1d63;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fad7f8;
+    color: black;
+}

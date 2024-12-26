@@ -1,0 +1,3 @@
+function openContact() {
+    alert("caca");
+}
