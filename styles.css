@@ -49,6 +49,12 @@ header {
 #header-text h1 button:hover {
     color: rgb(254, 199, 255);
 }
+.other_pages {
+    visibility: hidden;
+}
+#contact_page_button {
+    visibility: visible;
+}
 #header-text h1 a {
     text-decoration: none;
 }
