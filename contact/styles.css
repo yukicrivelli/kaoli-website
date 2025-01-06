@@ -70,3 +70,27 @@ button:hover {
     background-color: #fad7f8;
     color: black;
 }
+
+#return-button {
+    width: 230px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#return-button:hover {
+    color: #ffd2f4;
+    transform: scale(1.05);
+}
+
+#return-button:active {
+    transform: scale(1);
+}
